@@ -1,0 +1,87 @@
+.tasks{
+    flex: 0.6;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .task_search {
+    color: gray;
+    background-color: white;
+    margin: 0 15px;
+    border-radius: 10px;
+    height: 20%;
+    margin: 20px;
+    
+} */
+.input_container {
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;;
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: white;
+    color: gray;
+}
+
+.input_container input{
+    flex: 1;
+    outline: none;
+    border: none;
+    
+}
+
+.task_item{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.task_header{
+    margin: 5px;
+    display: flex;
+}
+
+.avatar {
+    margin: 5px 0;
+}
+
+.task_title{
+    margin: 10px 0 0 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.task_body{
+    overflow: none;
+    width: 85%;
+    align-content: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+}
+.task_body p{
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.task_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.task_details span{
+    font-weight: 600;
+    font-size: 17;
+    color: blueviolet;
+}
+
+.task_actions{
+    display: flex;
+}

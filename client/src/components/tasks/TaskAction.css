@@ -1,0 +1,6 @@
+.task_action{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}

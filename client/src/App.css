@@ -1,0 +1,22 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f2ef;
+}
+
+.body{
+  display: flex;
+  margin: 10px 20px 10px 20px;
+  max-width: 1200px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

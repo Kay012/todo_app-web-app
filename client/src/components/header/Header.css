@@ -1,0 +1,43 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-width: 70px ;
+    border-bottom: 1px solid lightgray;
+    padding: 0 10px;
+    z-index: 999;
+}
+
+.header_left{
+    display: flex;
+}
+.header_search {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #eef3f8;
+    color: gray
+};
+
+.header_search h3 {
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.header_search span{
+    color: blue
+}
+
+.header_right {
+    display: flex;
+    justify-content: space-between;
+}
